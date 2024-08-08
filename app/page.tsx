@@ -35,8 +35,8 @@ export default async function Home() {
 
   return (
     <>
-      <div className="grid grid-cols-2 gap-4 m-4
-      xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2" >
+      <div className="grid grid-cols-1 gap-4 m-4
+      xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 " >
         {cats.map((c: any, index: number) => { return <AnimalCard data={c} key={index} /> })}
         {dogs.map((d: any, index: number) => { return <AnimalCard data={d} key={index} /> })}
 

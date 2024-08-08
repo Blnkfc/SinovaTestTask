@@ -30,8 +30,8 @@ const ImageList = ({
   return (
     <div className='flex flex-col items-center w-full' >
       {/* Carousel container */}
-      <div className="relative w-[25em] h-[18em] overflow-hidden rounded-md 
-      xl:w-[40em] xl:h-[30em] md:w-[25em] md:h-[18em] xs:w-[15em] xs:h-[10em]">
+      <div className="relative w-[15em] h-[10em] overflow-hidden rounded-md 
+      xl:w-[40em] xl:h-[30em] md:w-[25em] md:h-[18em]">
         {/* Image container */}
         <div
           ref={carouselRef}
